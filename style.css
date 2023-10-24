@@ -1,0 +1,10 @@
+table,th, td {
+    border: 2px solid #ffff00;
+    border-collapse:collapse;
+    border-radius: 10px;
+}
+th, td {
+border-color: #0000ff;
+background-color:#ffffff;
+color: #008000;
+}

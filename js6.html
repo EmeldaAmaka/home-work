@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <P id="demo"></P>
+
+    <script>
+        function myfunction(a, b) {
+             // Block of the code goes in here
+            return a * b
+        }
+        let X = myfunction(10, 2)
+        document.getElementById("demo").innerHTML = X
+    </script>
+
+    <input type="text" name="" id="one">
+    <input type="text" name="" id="two">
+
+    <button onclick="myfunction()">Submit</button>
+
+    <h2 id="demo"></h2>
+    <h3 id="Another"></h3>
+    <script>
+        function myfunction() {
+            let one = document.getElementById("one").value
+            let two = document.getElementById("two").value
+            let result = one * two
+            document.getElementById("demo").innerHTML = result
+            document.getElementById("Another").innerHTML = "Another paragraph"
+        }
+    </script>
+
+</body>
+</html>

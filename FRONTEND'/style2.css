@@ -1,0 +1,46 @@
+header h1{
+    font-family:'Segoe UI';
+    color:rgb(51, 106, 217);
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 200px;
+
+}
+header{
+    width: 100%;
+    border: 1px solid rgb(8, 8, 8);
+    display: flex;}
+    .main-div{
+        width: 100%;
+        height: 100;
+        border: 1px solid black;
+        display: flex;
+
+    }
+    .section-div{
+        margin-left: 250px;
+        border: 1px solid rgb(128, 125, 125);
+    }
+    .list-div{   
+        list-style: none; 
+        cursor: pointer;
+        font-weight: bold;
+        border: 1px solid rgb(168, 168, 164);
+    }
+    h3{
+        color: blue;
+        cursor: pointer;
+    }
+    button{
+        color: rgb(86, 86, 207);
+        width: 180px;
+        height: 35px;
+        border-radius: 8px;
+        border-style: none;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: black;
+        transition: box-shadow 0.40s;
+
+    }
